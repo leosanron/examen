@@ -1,0 +1,12 @@
+<div class="col-nd-12 text-center">
+<% if user_signed_in? %>
+
+<h1>Hola, iniciaste sesion con <%= current_user.email %> </h1>
+
+<% else %>
+
+<h1> No has iniciado sesion </h1>
+
+<% end %>
+</div>
+
